@@ -275,3 +275,14 @@
 
 })(jQuery);
 
+
+
+
+
+
+
+$('.navbar-nav .nav-link').on('click', function () {  
+  if ($('.navbar-toggler').is(':visible')) {
+    $('#ftco-nav').collapse('hide');
+  }
+});

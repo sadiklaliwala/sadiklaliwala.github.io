@@ -8338,7 +8338,7 @@ h1, h2, h3, h4, h5,
         margin-left: 0 !important; } }
     .ftco-navbar-light.scrolled .navbar-toggler {
       border: none;
-      color: rgba(0, 0, 0, 0.5) !important;
+      color: #fff !important;
       border-color: rgba(0, 0, 0, 0.5) !important;
       cursor: pointer;
       text-transform: uppercase;
@@ -8430,7 +8430,7 @@ h1, h2, h3, h4, h5,
   .owl-carousel.home-slider {
     position: relative;
     height: 750px;
-    z-index: 0; }
+    z-index: -1; }
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
       background-repeat: no-repeat;
@@ -9682,3 +9682,22 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+@media (max-width: 991.98px) {
+  div#ftco-nav {
+  position: absolute;
+  z-index: 9999;
+  left: 0;
+  right: 0;
+  width: 100%;
+  top: 100%;
+  }
+
+  div#ftco-nav ul {
+        background: #000;
+        padding: 10px 20px !important;
+    }
+
+
+}
